@@ -1,8 +1,10 @@
 .container {
     display: flex; 
     flex-direction: column;
-  
-    background-color: darkgray ;
+    margin: 0px 0px; 
+    font-family: Roboto;
+    padding: 140;
+
 }
 
 
@@ -10,36 +12,63 @@
 
 .main-page-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 16px; 
-
     width: 400px; 
     color: white; 
 }
-
+.main-page-info1 {
+    display: flex; 
+    width: 400px; 
+    align-self: center;
+    justify-content: flex-end;
+}
 .section-1 {
     display: flex; 
     flex-direction: column;
-    margin: 0px 80px;
-    gap: 30px; 
+    padding: 0px 140px 80px;
+    gap: 100px; 
+    background-color: #1F2937 ;
 
 }
 
 .header-info {
     display: flex; 
     justify-content: space-between;
+    font-size: 24px;
 }
 
 .section-1-info {
     display: flex; 
     justify-content: space-between;
+    font-size: 36px;
+
+}
+
+.section-1-text {
+    font-size: 18px; 
+    margin: 0; 
+}
+
+.header-links {
+    align-self: center;
+    font-size: 10px;
+    display: flex;
+    gap: 16px; 
 
 }
 
 button {
-    width: 100px; 
+    width: 150px; 
+    background-color: #3882F6;
+    border-radius: 8px;
+    outline: none; 
+    color: white; 
+    font-family: Roboto;
+    height: 40px;
+
 }
 
 .dino-arrow-gif {
@@ -55,8 +84,71 @@ button {
 
 h1.heading {
     margin: 0; 
+    padding: 0;
+
+}
+.header-text {
+    color: white; 
+    font-size: 24px; 
+}
+.section-2 {
+    display: flex; 
+    background-color: white;
+    height: 400px; 
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.section-2.h1
+{
+    align-self: center;
+}
+.section-3 {
+    display: flex; 
+    background-color: lightgray ;
+    height: 300px; 
+    flex-direction: column;
+    padding: 60px 160px; 
 }
 
-section {
+a {
+    text-decoration: none;
+    color: white;
+}
 
+.abilities {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 160px; 
+}
+.ability-row {
+    display: flex; 
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.item-description {
+    color: #1F2937
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.quote-person {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: end;
+    margin: 0;
+}
+
+.section-4 {
+    background-color: white;
+    
 }
