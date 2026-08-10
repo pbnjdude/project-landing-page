@@ -1,11 +1,12 @@
 body {
     margin: 0; 
+    font-family: "Roboto";
 }
 .container {
     display: flex; 
     flex-direction: column;
     margin: 0px 0px; 
-    font-family: Roboto;
+    
     padding: 140;
 
 }
@@ -176,6 +177,7 @@ a {
     min-width: 600px;
     width: 700px; 
     display: flex; 
+    margin: 0px; 
     justify-content: center;
     
 }
@@ -188,7 +190,7 @@ a {
     min-width: 600px;
     width: 700px; 
     display: flex; 
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .section-4 {
@@ -218,4 +220,11 @@ h3 {
 .sign-up-text {
     margin: 5px 20px 20px 0px; 
     font-size: 10px;
+}
+
+.icon {
+
+    border-radius: 12px;
+    border-color: #3882F6 ;
+   
 }
