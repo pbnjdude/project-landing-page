@@ -64,13 +64,20 @@ button {
     width: 150px; 
     background-color: #3882F6;
     border-radius: 8px;
-    outline: none; 
+
     color: white; 
     font-family: Roboto;
     height: 40px;
 
 }
 
+.section-1-button {
+    border: none; 
+}
+.section-4-button {
+    border-color: white; 
+    
+}
 .dino-arrow-gif {
     width: 150px; 
     height: 150px;
@@ -149,6 +156,30 @@ a {
 }
 
 .section-4 {
-    background-color: white;
+    background-color: #3882F6;
+    display: flex; 
+    margin: 50px;
+    height: 150px; 
+    border-radius: 12px;
+
+    color: white;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.section-4.container {
+    display: flex; 
+    justify-content: center;
+    flex: 1; 
+
+    
+}
+h3 {
+    margin: 20px 0px 0px; 
+}
+
+.sign-up-text {
+    margin: 5px 20px 20px 0px; 
+    font-size: 10px;
 }
