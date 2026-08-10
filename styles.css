@@ -1,3 +1,6 @@
+body {
+    margin: 0; 
+}
 .container {
     display: flex; 
     flex-direction: column;
@@ -16,45 +19,57 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 16px; 
-    width: 400px; 
+    width: 500px; 
     color: white; 
+    flex: 0 0 auto; 
 }
 .main-page-info1 {
     display: flex; 
     width: 400px; 
-    align-self: center;
-    justify-content: flex-end;
+    height: 200px; 
+    align-self: baseline;
+    justify-content: center;
+    background-color: gray;
+    
 }
 .section-1 {
-    display: flex; 
-    flex-direction: column;
-    padding: 0px 140px 80px;
-    gap: 100px; 
-    background-color: #1F2937 ;
+
+    
+
 
 }
-
+.section-1-container {
+    display: flex; 
+    background-color: #1F2937 ;
+    justify-content: center;
+}
 .header-info {
     display: flex; 
-    justify-content: space-between;
-    font-size: 24px;
+    justify-content: space-between; 
+    margin-bottom: 120px;
+
 }
 
 .section-1-info {
     display: flex; 
     justify-content: space-between;
-    font-size: 36px;
+    font-size: 28px;
+    gap: 60px; 
+    margin-bottom: 120px; ;
+    flex-wrap: nowrap;
+
 
 }
 
 .section-1-text {
     font-size: 18px; 
     margin: 0; 
+    color: lightgrey;
 }
 
 .header-links {
     align-self: center;
-    font-size: 10px;
+    font-size: 16px;
     display: flex;
     gap: 16px; 
 
@@ -64,7 +79,8 @@ button {
     width: 150px; 
     background-color: #3882F6;
     border-radius: 8px;
-
+    font-weight: 600;
+    font-size: 16px;
     color: white; 
     font-family: Roboto;
     height: 40px;
@@ -104,19 +120,24 @@ h1.heading {
     height: 400px; 
     flex-direction: column;
     text-align: center;
+    justify-content: center; 
+    gap: 40px; 
+
 
 
 }
 .section-2.h1
 {
     align-self: center;
+    min-width: 950px;
 }
 .section-3 {
     display: flex; 
     background-color: lightgray ;
     height: 300px; 
     flex-direction: column;
-    padding: 60px 160px; 
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -129,22 +150,33 @@ a {
     flex-direction: column;
     align-items: center;
     width: 160px; 
+    flex: 0 0 auto; 
+
 }
 .ability-row {
     display: flex; 
     justify-content: center;
     gap: 16px;
-
+    
 }
 
+.abilites-header {
+    margin-top: 0;
+    display: flex; 
+    justify-content: center;
+}
 .item-description {
-    color: #1F2937
+    color: #1F2937; 
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    min-width: 600px;
+    width: 700px; 
+    display: flex; 
+    justify-content: center;
     
 }
 
@@ -153,6 +185,10 @@ a {
     font-size: 24px;
     text-align: end;
     margin: 0;
+    min-width: 600px;
+    width: 700px; 
+    display: flex; 
+    justify-content: center;
 }
 
 .section-4 {
@@ -161,7 +197,7 @@ a {
     margin: 50px;
     height: 150px; 
     border-radius: 12px;
-
+    min-width: 800px;
     color: white;
     justify-content: center;
     align-items: center;
